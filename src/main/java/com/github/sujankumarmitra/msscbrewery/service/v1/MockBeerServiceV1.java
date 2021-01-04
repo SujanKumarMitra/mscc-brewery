@@ -31,7 +31,12 @@ public class MockBeerServiceV1 implements BeerServiceV1 {
     }
 
     @Override
-    public BeerV1 updateBeer(BeerV1 beerToUpdate) {
-        return new ImmutableBeerV1(beerToUpdate);
+    public void updateBeer(BeerV1 beerToUpdate) {
+        return;
+    }
+
+    @Override
+    public void deleteBeer(String beerId) {
+        return;
     }
 }

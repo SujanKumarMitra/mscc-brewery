@@ -51,4 +51,12 @@ public class BeerResourceV1 {
                 .noContent()
                 .<Void>build();
     }
+
+    @DeleteMapping("/{beerId}")
+    public ResponseEntity<Void> deleteBeer(@PathVariable String beerId) {
+        beerService.deleteBeer(beerId);
+        return ResponseEntity
+                .noContent()
+                .<Void>build();
+    }
 }
