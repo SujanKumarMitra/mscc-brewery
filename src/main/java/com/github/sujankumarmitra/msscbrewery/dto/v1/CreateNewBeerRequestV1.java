@@ -1,6 +1,6 @@
-package com.github.sujankumarmitra.msccbrewery.dto.v1;
+package com.github.sujankumarmitra.msscbrewery.dto.v1;
 
-import com.github.sujankumarmitra.msccbrewery.model.v1.BeerV1;
+import com.github.sujankumarmitra.msscbrewery.model.v1.BeerV1;
 
 public class CreateNewBeerRequestV1 implements BeerV1 {
     private String id;

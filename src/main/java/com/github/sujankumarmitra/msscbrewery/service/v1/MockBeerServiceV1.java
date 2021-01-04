@@ -1,7 +1,7 @@
-package com.github.sujankumarmitra.msccbrewery.service.v1;
+package com.github.sujankumarmitra.msscbrewery.service.v1;
 
-import com.github.sujankumarmitra.msccbrewery.model.v1.BeerV1;
-import com.github.sujankumarmitra.msccbrewery.model.v1.ImmutableBeerV1;
+import com.github.sujankumarmitra.msscbrewery.model.v1.BeerV1;
+import com.github.sujankumarmitra.msscbrewery.model.v1.ImmutableBeerV1;
 import org.springframework.stereotype.Service;
 
 import static java.lang.String.valueOf;

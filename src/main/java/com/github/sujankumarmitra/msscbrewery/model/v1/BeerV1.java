@@ -1,4 +1,4 @@
-package com.github.sujankumarmitra.msccbrewery.model.v1;
+package com.github.sujankumarmitra.msscbrewery.model.v1;
 
 /**
  * Interface representing domain model Beer

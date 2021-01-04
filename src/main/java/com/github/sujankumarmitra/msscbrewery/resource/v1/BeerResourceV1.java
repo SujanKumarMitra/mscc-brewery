@@ -1,10 +1,10 @@
-package com.github.sujankumarmitra.msccbrewery.resource.v1;
+package com.github.sujankumarmitra.msscbrewery.resource.v1;
 
-import com.github.sujankumarmitra.msccbrewery.dto.v1.CreateNewBeerRequestV1;
-import com.github.sujankumarmitra.msccbrewery.dto.v1.CreateNewBeerResponseV1;
-import com.github.sujankumarmitra.msccbrewery.dto.v1.GetBeerResponseV1;
-import com.github.sujankumarmitra.msccbrewery.model.v1.BeerV1;
-import com.github.sujankumarmitra.msccbrewery.service.v1.BeerServiceV1;
+import com.github.sujankumarmitra.msscbrewery.dto.v1.CreateNewBeerRequestV1;
+import com.github.sujankumarmitra.msscbrewery.dto.v1.CreateNewBeerResponseV1;
+import com.github.sujankumarmitra.msscbrewery.dto.v1.GetBeerResponseV1;
+import com.github.sujankumarmitra.msscbrewery.model.v1.BeerV1;
+import com.github.sujankumarmitra.msscbrewery.service.v1.BeerServiceV1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

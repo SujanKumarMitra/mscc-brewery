@@ -1,7 +1,7 @@
-package com.github.sujankumarmitra.msccbrewery.dto.v1;
+package com.github.sujankumarmitra.msscbrewery.dto.v1;
 
-import com.github.sujankumarmitra.msccbrewery.model.v1.CustomerV1;
-import com.github.sujankumarmitra.msccbrewery.resource.v1.CustomerResourceV1;
+import com.github.sujankumarmitra.msscbrewery.model.v1.CustomerV1;
+import com.github.sujankumarmitra.msscbrewery.resource.v1.CustomerResourceV1;
 
 /**
  * Response model of {@link CustomerResourceV1#getCustomer(String)}

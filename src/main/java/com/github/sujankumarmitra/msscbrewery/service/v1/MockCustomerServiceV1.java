@@ -1,7 +1,7 @@
-package com.github.sujankumarmitra.msccbrewery.service.v1;
+package com.github.sujankumarmitra.msscbrewery.service.v1;
 
-import com.github.sujankumarmitra.msccbrewery.model.v1.CustomerV1;
-import com.github.sujankumarmitra.msccbrewery.model.v1.ImmutableCustomerV1;
+import com.github.sujankumarmitra.msscbrewery.model.v1.CustomerV1;
+import com.github.sujankumarmitra.msscbrewery.model.v1.ImmutableCustomerV1;
 import org.springframework.stereotype.Service;
 
 /**

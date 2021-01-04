@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.github.sujankumarmitra</groupId>
-    <artifactId>mscc-brewery</artifactId>
+    <artifactId>mssc-brewery</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>SFG Brewery</name>
     <description>Brewery for SFG Beer Works</description>

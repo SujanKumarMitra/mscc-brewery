@@ -1,8 +1,8 @@
-package com.github.sujankumarmitra.msccbrewery.resource.v1;
+package com.github.sujankumarmitra.msscbrewery.resource.v1;
 
-import com.github.sujankumarmitra.msccbrewery.dto.v1.GetCustomerResponseV1;
-import com.github.sujankumarmitra.msccbrewery.model.v1.CustomerV1;
-import com.github.sujankumarmitra.msccbrewery.service.v1.CustomerServiceV1;
+import com.github.sujankumarmitra.msscbrewery.dto.v1.GetCustomerResponseV1;
+import com.github.sujankumarmitra.msscbrewery.model.v1.CustomerV1;
+import com.github.sujankumarmitra.msscbrewery.service.v1.CustomerServiceV1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
