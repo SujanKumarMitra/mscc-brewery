@@ -1,13 +1,14 @@
 package com.github.sujankumarmitra.msccbrewery.dto.v1;
 
 import com.github.sujankumarmitra.msccbrewery.model.v1.BeerV1;
+import com.github.sujankumarmitra.msccbrewery.resource.v1.BeerResourceV1;
 
 /**
- * Response model of {@link com.github.sujankumarmitra.msccbrewery.controller.v1.BeerControllerV1#getBeer(String)}
+ * Response model of {@link BeerResourceV1#getBeer(String)}
  *
  * @author skmitra
  * @version 1.0
- * @see com.github.sujankumarmitra.msccbrewery.controller.v1.BeerControllerV1
+ * @see BeerResourceV1
  */
 public class GetBeerResponseV1 {
 

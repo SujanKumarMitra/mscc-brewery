@@ -1,4 +1,4 @@
-package com.github.sujankumarmitra.msccbrewery.controller.v1;
+package com.github.sujankumarmitra.msccbrewery.resource.v1;
 
 import com.github.sujankumarmitra.msccbrewery.dto.v1.CreateNewBeerRequestV1;
 import com.github.sujankumarmitra.msccbrewery.dto.v1.CreateNewBeerResponseV1;
@@ -15,12 +15,12 @@ import static org.springframework.http.HttpStatus.CREATED;
 
 @RestController
 @RequestMapping("/api/v1/beer")
-public class BeerControllerV1 {
+public class BeerResourceV1 {
 
     private BeerServiceV1 beerService;
 
     @Autowired
-    public BeerControllerV1(BeerServiceV1 beerService) {
+    public BeerResourceV1(BeerServiceV1 beerService) {
         this.beerService = beerService;
     }
 

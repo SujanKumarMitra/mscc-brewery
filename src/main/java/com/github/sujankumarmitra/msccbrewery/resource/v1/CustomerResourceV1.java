@@ -1,4 +1,4 @@
-package com.github.sujankumarmitra.msccbrewery.controller.v1;
+package com.github.sujankumarmitra.msccbrewery.resource.v1;
 
 import com.github.sujankumarmitra.msccbrewery.dto.v1.GetCustomerResponseV1;
 import com.github.sujankumarmitra.msccbrewery.model.v1.CustomerV1;
@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/v1/customer")
-public class CustomerControllerV1 {
+public class CustomerResourceV1 {
 
     private CustomerServiceV1 customerService;
 
     @Autowired
-    public CustomerControllerV1(CustomerServiceV1 customerService) {
+    public CustomerResourceV1(CustomerServiceV1 customerService) {
         this.customerService = customerService;
     }
 
