@@ -2,6 +2,12 @@ package com.github.sujankumarmitra.msscbrewery.dto.v1;
 
 import com.github.sujankumarmitra.msscbrewery.model.v1.BeerV1;
 
+/**
+ * Request Body POJO of {@link com.github.sujankumarmitra.msscbrewery.resource.v1.BeerResourceV1#updateBeer(String, UpdateBeerRequestV1)} )}
+ *
+ * @author skmitra
+ * @version 1.0
+ */
 public class UpdateBeerRequestV1 implements BeerV1 {
 
     private String id;
