@@ -3,6 +3,7 @@ package com.github.sujankumarmitra.msscbrewery.resource.v1;
 import com.github.sujankumarmitra.msscbrewery.dto.v1.CreateNewBeerRequestV1;
 import com.github.sujankumarmitra.msscbrewery.dto.v1.CreateNewBeerResponseV1;
 import com.github.sujankumarmitra.msscbrewery.dto.v1.GetBeerResponseV1;
+import com.github.sujankumarmitra.msscbrewery.dto.v1.UpdateBeerRequestV1;
 import com.github.sujankumarmitra.msscbrewery.model.v1.BeerV1;
 import com.github.sujankumarmitra.msscbrewery.service.v1.BeerServiceV1;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,5 +38,17 @@ public class BeerResourceV1 {
         return ResponseEntity
                 .status(CREATED)
                 .body(new CreateNewBeerResponseV1(newBeer));
+    }
+
+    @PutMapping("/{beerId}")
+    public ResponseEntity<Void> updateBeer(
+            @PathVariable String beerId,
+            @RequestBody @Valid UpdateBeerRequestV1 beerToUpdate) {
+        beerToUpdate.setId(beerId);
+        beerService.updateBeer(beerToUpdate);
+
+        return ResponseEntity
+                .noContent()
+                .<Void>build();
     }
 }

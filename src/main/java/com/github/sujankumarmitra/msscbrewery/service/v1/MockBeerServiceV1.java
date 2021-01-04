@@ -29,4 +29,9 @@ public class MockBeerServiceV1 implements BeerServiceV1 {
                 newBeer.getUpc()
         );
     }
+
+    @Override
+    public BeerV1 updateBeer(BeerV1 beerToUpdate) {
+        return new ImmutableBeerV1(beerToUpdate);
+    }
 }
