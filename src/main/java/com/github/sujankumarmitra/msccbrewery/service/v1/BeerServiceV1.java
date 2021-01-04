@@ -11,4 +11,6 @@ import com.github.sujankumarmitra.msccbrewery.model.v1.BeerV1;
 public interface BeerServiceV1 {
 
     BeerV1 getBear(String beerId);
+
+    BeerV1 createNewBeer(BeerV1 newBeer);
 }
