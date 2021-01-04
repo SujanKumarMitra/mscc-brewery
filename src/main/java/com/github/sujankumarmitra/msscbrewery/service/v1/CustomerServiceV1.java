@@ -11,4 +11,10 @@ import com.github.sujankumarmitra.msscbrewery.model.v1.CustomerV1;
 public interface CustomerServiceV1 {
 
     CustomerV1 getCustomer(String customerId);
+
+    CustomerV1 createNewCustomer(CustomerV1 customerToCreate);
+
+    void updateCustomer(CustomerV1 customerToUpdate);
+
+    void deleteCustomer(String customerId);
 }
