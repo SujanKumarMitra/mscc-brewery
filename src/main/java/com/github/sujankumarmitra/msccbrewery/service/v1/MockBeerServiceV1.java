@@ -4,6 +4,12 @@ import com.github.sujankumarmitra.msccbrewery.model.v1.BeerV1;
 import com.github.sujankumarmitra.msccbrewery.model.v1.ImmutableBeerV1;
 import org.springframework.stereotype.Service;
 
+/**
+ * Fake Service Class impl of {@link BeerServiceV1}
+ *
+ * @author skmitra
+ * @version 1.0
+ */
 @Service
 public class MockBeerServiceV1 implements BeerServiceV1 {
     @Override
